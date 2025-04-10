@@ -6,7 +6,7 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import 'leaflet-defaulticon-compatibility';
 import { Menu } from './components/menu';
 function Contact(){
-    const position = [51.505, -0.09]
+    const position = [-25.5206549,-49.2325173]
 
     return(
         <>
