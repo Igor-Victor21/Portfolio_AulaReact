@@ -1,0 +1,37 @@
+.tittle{
+    color: red;
+}
+
+.s1{
+    background-color: var(--bg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.crdzao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(78, 77, 77);
+    border-radius: 20px;
+    text-align: center;
+    color: var(--text);
+}
+
+.crdzao img{
+    border-radius: 99%;
+}
+
+@media (width >= 1000px){
+    
+.s1{
+    background-color: black;
+}
+
+}
