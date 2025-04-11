@@ -2,6 +2,10 @@ import style from './App.module.css'
 import { cards } from './assets/mock/cards'
 import { Menu } from './components/menu'
 // import img01 from './assets/images/img01.jpg'
+import github from './assets/images/github.png'
+import instagram from './assets/images/instagram.png'
+import linkedin from './assets/images/linkedin.png'
+
 import { useState } from 'react'
 
 function App() {
@@ -46,6 +50,11 @@ function App() {
             </div>
           )
         })}
+        <footer className={style.footer}>
+        <a target="_blank" href="https://github.com/Igor-Victor21">{<img src={github} alt="github" width={60} height={"auto"}/>}</a>
+        <a target="_blank" href="https://www.instagram.com/">{<img src={instagram} alt="instagram" width={60} height={"auto"}/>}</a>
+        <a target="_blank" href="https://www.linkedin.com/in/igor-victor-693303336/">{<img src={linkedin} alt="linkedin" width={60} height={"auto"}/>}</a>
+        </footer>
       </section>
       <section id='s2' className={style.s2}>
         <div className={style.container}>
